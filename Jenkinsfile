@@ -15,7 +15,7 @@ pipeline {
 
         stage('Test'){
             steps {
-                powershell 'mvn test'
+                powershell 'mvn test it'
             }
         }
 
